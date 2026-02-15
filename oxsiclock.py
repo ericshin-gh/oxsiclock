@@ -39,8 +39,8 @@ try:
         # --- [수정된 부분] 화면 출력 ---
         # print()와 clear_output() 대신 placeholder에 덮어쓰기
         with clock_placeholder.container():
-            st.metric(label="현재 지구 시간", value=earth_time_str)
-            st.metric(label="현재 OXSI 시간", value=oxsi_time_str)
+            st.metric(label="EARTHI(SÔUL)", value=earth_time_str)
+            st.metric(label="OKSI", value=oxsi_time_str)
             
             # 단순 텍스트로 보고 싶다면 아래 주석을 해제하고 위 metric을 주석 처리하세요
             # st.write(f"현재 지구 시간: {earth_time_str}")
